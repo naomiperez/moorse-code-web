@@ -1,0 +1,35 @@
+/* Translator Styles */
+.container {
+    display: flex;
+    flex-direction: column !important;
+}
+.inputsContainer {
+    max-width: 600px;
+    flex: auto;
+}
+
+.englishToMoorse {
+    display: flex;
+    flex-direction: row;
+    margin: 1.3rem;
+    align-items: center;
+}
+
+.moorseToEnglish {
+    display: flex;
+    flex-direction: row;
+    margin: 1.3rem;
+    margin-top: 1rem;
+    align-items: center;
+}
+.toMoorse {
+    height: 2rem;
+    padding: 1rem;
+    margin: 1rem !important;
+}
+
+.toEnglish {
+    height: 2rem;
+    padding: 1rem;
+    margin: 1rem !important;
+}
