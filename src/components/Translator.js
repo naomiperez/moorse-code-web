@@ -13,9 +13,7 @@ export default function Translator() {
   const [encodedEnglish, setEncodedEnglish] = React.useState();
 
   const toMoorse = (e) => {
-    console.log(english);
-    console.log(encodeMoorse(english.split("")));
-    setEncodedMoorse(encodeMoorse(english.split("")));
+    setEncodedMoorse(encodeMoorse(english.toLowerCase().split("")));
   };
 
   const toEnglish = (e) => {

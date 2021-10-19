@@ -57,7 +57,7 @@ const moorseToEnglish = {
   "mooo mooo moo mooo": "q",
   "moo mooo moo": "r",
   "moo moo moo": "s",
-  mooo: "t",
+  "mooo": "t",
   "moo moo mooo": "u",
   "moo moo moo mooo": "v",
   "moo mooo mooo": "w",
