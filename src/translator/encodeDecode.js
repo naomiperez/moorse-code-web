@@ -35,6 +35,13 @@ const englishToMoorse = {
   8: "mooo mooo mooo moo moo ♥",
   9: "mooo mooo mooo mooo moo ♥",
   0: "mooo mooo mooo mooo mooo ♥",
+  ",": "mooo mooo moo moo mooo mooo ♥",
+  "?": "moo moo mooo mooo moo moo ♥",
+  ".": "moo mooo moo mooo moo mooo ♥",
+  ";": "mooo moo mooo moo mooo moo ♥",
+  "/": "mooo moo moo mooo moo ♥",
+  "'": "moo mooo mooo mooo mooo moo ♥",
+  "!": "mooo moo moooo moo moooo moo ♥"
 };
 
 const moorseToEnglish = {
@@ -42,7 +49,7 @@ const moorseToEnglish = {
   "mooo moo moo moo": "b",
   "mooo moo mooo moo": "c",
   "mooo moo moo": "d",
-  moo: "e",
+  "moo": "e",
   "moo moo mooo moo": "f",
   "mooo mooo moo": "g",
   "moo moo moo moo": "h",
@@ -74,6 +81,13 @@ const moorseToEnglish = {
   "mooo mooo mooo moo moo": "8",
   "mooo mooo mooo mooo moo": "9",
   "mooo mooo mooo mooo mooo": "0",
+  "mooo mooo moo moo mooo mooo": ",",
+  "moo moo mooo mooo moo moo": "?",
+  "moo mooo moo mooo moo mooo": ".",
+  "mooo moo mooo moo mooo moo": ";",
+  "mooo moo moo mooo moo": "/",
+  "moo mooo mooo mooo mooo moo": "'",
+  "mooo moo moooo moo moooo moo": "!",
 };
 
 const decodeMoorse = (morseCode) => {
